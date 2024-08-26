@@ -6,14 +6,6 @@
   justify-content: end;
 }
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4; /* Exemplo de cor de fundo */
-  border-radius: 8px; /* Bordas arredondadas, opcional */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave, opcional */
-}
 
 
 .logo {

@@ -40,7 +40,7 @@ function App() {
             onChange={(e) => setAltura(e.target.value)}
             required
           >
-            {(inputProps) => <input {...inputProps} type="text" />}
+            {(inputProps) => <input className='altura' {...inputProps} type="text" />}
           </InputMask>
         </div>
         <div style={{ display:'flex', justifyContent: 'center'}}>
@@ -51,7 +51,7 @@ function App() {
             onChange={(e) => setPeso(e.target.value)}
             required
           >
-            {(inputProps) => <input {...inputProps} type="text" />}
+            {(inputProps) => <input className='altura' {...inputProps} type="text" />}
           </InputMask>
         </div>
         <div style={{ display:'flex', justifyContent: 'center', paddingTop: '80px'}}>
